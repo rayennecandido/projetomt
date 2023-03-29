@@ -1,0 +1,51 @@
+{
+  "funcionario": [
+    {
+      "id": 1,
+      "nome": "Teste Funcionário 01",
+      "tipo": "dev frontend",
+      "cpf": "06512387590",
+      "email": "funcionaaarioo@gmail.com",
+      "telefone": "61945343215",
+      "endereco": "Rua das Pitangueiras",
+      "numero": "4",
+      "cidade": "Brasília",
+      "UF": "DF",
+      "CEP": "72345673",
+      "dataNascimento": "02/10/1990",
+      "produtoId": 1
+    },
+    {
+      "nome": "Teste Funcionário 03",
+      "tipo": "dev fullstack",
+      "cpf": "06512387590",
+      "email": "funcionario02@gmail.com",
+      "telefone": "61945343215",
+      "endereco": "Rua das Pitangueiras",
+      "numero": "4",
+      "cidade": "Brasília",
+      "UF": "DF",
+      "CEP": "72345673",
+      "dataNascimento": "02/10/1995",
+      "id": 4,
+      "produtoId": 4
+    }
+  ],
+  "produto": [
+    {
+      "id": 1,
+      "nome": "Produto 1",
+      "descricao": "Descrição do produto 1",
+      "preco": 20
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "funcionarioId": 1,
+      "produtoId": 1,
+      "quantidade": 1,
+      "dataVenda": "02/10/1990"
+    }
+  ]
+}
