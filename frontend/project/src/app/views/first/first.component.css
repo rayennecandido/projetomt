@@ -1,0 +1,14 @@
+.card .first {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .first .title {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .first .subtitle {
+    font-size: 1.1rem;
+  }
