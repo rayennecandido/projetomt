@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,7 +16,6 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { FirstComponent } from './views/first/first.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 
 
