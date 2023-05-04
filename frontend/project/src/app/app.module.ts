@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { NavComponent } from './components/template/nav/nav.component';
+import { NavComponent } from './components/template/nav/nav.component'
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {HttpClientModule} from '@angular/common/http';
 import { FirstComponent } from './views/first/first.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 
@@ -36,7 +38,9 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatSidenavModule,
     MatCardModule,
     MatListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule
 
   ],
   providers: [],
