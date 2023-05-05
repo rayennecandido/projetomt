@@ -2,39 +2,51 @@
   "funcionario": [
     {
       "id": 1,
-      "nome": "Teste Funcionário 01",
-      "tipo": "dev frontend",
-      "cpf": "06512387590",
-      "email": "funcionaaarioo@gmail.com",
-      "telefone": "61945343215",
-      "endereco": "Rua das Pitangueiras",
-      "numero": "4",
-      "cidade": "Brasília",
-      "UF": "DF",
-      "CEP": "72345673",
-      "dataNascimento": "02/10/1990",
-      "produtoId": 1
+      "name": "Teste Funcionário 01",
+      "CPF": "18797845520",
+      "dataNascimento": "09/10/1996"
     },
     {
-      "nome": "Teste Funcionário 03",
-      "tipo": "dev fullstack",
-      "cpf": "06512387590",
-      "email": "funcionario02@gmail.com",
-      "telefone": "61945343215",
-      "endereco": "Rua das Pitangueiras",
-      "numero": "4",
-      "cidade": "Brasília",
-      "UF": "DF",
-      "CEP": "72345673",
-      "dataNascimento": "02/10/1995",
-      "id": 4,
-      "produtoId": 4
+      "name": "Produto Teste",
+      "CPF": 4838211109,
+      "dataNascimento": 25081995,
+      "id": 2
+    },
+    {
+      "name": "Produto Teste",
+      "CPF": 4838211109,
+      "dataNascimento": 25081995,
+      "id": 3
+    },
+    {
+      "name": "Produto Teste",
+      "CPF": 4838211109,
+      "dataNascimento": 25081995,
+      "id": 4
+    },
+    {
+      "name": "Produto Teste",
+      "CPF": 4838211109,
+      "dataNascimento": 25081995,
+      "id": 5
+    },
+    {
+      "name": "Produto Teste",
+      "CPF": 4838211109,
+      "dataNascimento": 25081995,
+      "id": 6
+    },
+    {
+      "name": "Produto Teste",
+      "CPF": 4838211109,
+      "dataNascimento": 25081995,
+      "id": 7
     }
   ],
-  "produto": [
+  "products": [
     {
       "id": 1,
-      "nome": "Produto 1",
+      "name": "Produto 1",
       "descricao": "Descrição do produto 1",
       "preco": 20
     }
