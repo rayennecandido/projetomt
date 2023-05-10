@@ -1,9 +1,64 @@
-<p>product-create works!</p>
+<mat-card>
+  <mat-card-title>Novo Produto</mat-card-title>
+  <form>
+    <div class="container">
+      <div class="row">
+        <div class="nome-cpf">
+          <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name"/>
+          </mat-form-field>
+
+          <mat-form-field>
+            <input matInput placeholder="CPF" [(ngModel)]="product.CPF" name="CPF"/>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="data-nascimento">
+          <mat-form-field>
+            <input matInput placeholder="Data de Nascimento" [(ngModel)]="product.dataNascimento" name="dataNascimento"/>
+          </mat-form-field>
+
+          <mat-form-field>
+            <input matInput placeholder="E-mail" [(ngModel)]="product.email" name="E-mail"/>
+          </mat-form-field>
+
+          <mat-form-field>
+            <input matInput placeholder="Telefone" [(ngModel)]="product.telefone" name="Telefone"/>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <mat-form-field>
+          <input matInput placeholder="Tipo" [(ngModel)]="product.tipo" name="Tipo"/>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="Endereço" [(ngModel)]="product.endereco" name="endereco"/>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="Número" [(ngModel)]="product.numero" name="Número"/>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field>
+         <input matInput placeholder="Cidade" [(ngModel)]="product.cidade" name="Cidade"/>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="UF" [(ngModel)]="product.UF" name="UF" />
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="CEP" [(ngModel)]="product.CEP" name="CEP"/>
+        </mat-form-field>
+      </div>
+    </div>
+  </form>
+</mat-card>
 
 <button mat-raised-button (click)="createProduct()" color="primary">
-    Salvar
+  Salvar
 </button>
 
-<button mat-raised-button (click)="cancel()">
-    Cancelar
-</button>
+<button mat-raised-button (click)="cancel()">Cancelar</button>

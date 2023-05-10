@@ -11,9 +11,17 @@ import { Product } from './product.model';
 export class ProductCreateComponent implements OnInit {
 
   product: Product = {
-    name: 'Produto Teste',
-    CPF: Number('04838211109'),
-    dataNascimento: Number('25081995')
+    name: '',
+    CPF: '',
+    dataNascimento: '',
+    email: '',
+    telefone: '',
+    tipo: '',
+    endereco: '',
+    numero: '',
+    cidade: '',
+    UF: '',
+    CEP: '',
   }
 
   constructor(private productService: ProductService, 

@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container mat-form-field{
+    margin-left: 10px;
+    width: 400px;
+}
+.nome-cpf mat-form-field{
+    width: 605px;
+
+}

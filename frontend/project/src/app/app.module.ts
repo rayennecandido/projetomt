@@ -1,5 +1,5 @@
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,9 +15,13 @@ import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { FirstComponent } from './views/first/first.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule }  from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 
 
@@ -40,7 +44,10 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatListModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
 
   ],
   providers: [],
