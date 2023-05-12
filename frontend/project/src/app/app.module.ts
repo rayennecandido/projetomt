@@ -22,6 +22,11 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule }  from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
 
 
 
@@ -33,6 +38,9 @@ import { MatInputModule } from '@angular/material/input';
     FirstComponent,
     ProductCrudComponent,
     ProductCreateComponent,
+    ProductReadComponent,
+    ProductRead2Component
+    
   ],
   imports: [
     BrowserModule,
@@ -48,6 +56,9 @@ import { MatInputModule } from '@angular/material/input';
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
 
   ],
   providers: [],
